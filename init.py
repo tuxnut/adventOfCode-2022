@@ -13,7 +13,7 @@ def create_directory_for_day(directory: str):
 
 
 def download_input(day: str):
-    url = f"https://adventofcode.com/2021/day/{day}/input"
+    url = f"https://adventofcode.com/2022/day/{day}/input"
     response = requests.get(
         url, headers={"Cookie": f"session={os.environ['COOKIE_SESSION']}"}
     )
