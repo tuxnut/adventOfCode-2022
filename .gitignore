@@ -1,0 +1,5 @@
+.vscode
+*.template
+input*.txt
+.env
+venv
