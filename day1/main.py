@@ -10,6 +10,7 @@ def read_input_file(filename: str) -> List[str]:
 
     return content
 
+
 def group_calories_by_elves(file_content: list[str]) -> List[int]:
     calories_by_elves = []
     calories = 0
@@ -21,6 +22,7 @@ def group_calories_by_elves(file_content: list[str]) -> List[int]:
         calories += int(line)
 
     return calories_by_elves
+
 
 def main(argv: str):
     current_dir = os.path.dirname(os.path.abspath(__file__))
