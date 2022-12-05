@@ -3,3 +3,7 @@
 input*.txt
 .env
 venv
+*.pyc
+
+# Just to make unittest work - does not need to be indexed
+__init__.py
